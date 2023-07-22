@@ -9,8 +9,15 @@
         button {
             padding: 5px;
             cursor: pointer;
+            border: none;
             border-radius: 5px;
             background-color: #fff;
+            background-color: #FFE98A;
+
+            &:hover{
+                background-color: #F5F0BB ;
+                box-shadow: 0 0 10px #ECCDB4;
+            }
         }
     }
 }

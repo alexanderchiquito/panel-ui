@@ -1,8 +1,11 @@
+@import '../../styles/variables.scss';
+
+
 .dataTable {
 
-
     .dataGrid {
-        background: #fff;
+        background: $soft-bg;
+        border: none;
         padding: 20px;
 
         .MuiDataGrid-toolbarContainer {
